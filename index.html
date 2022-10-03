@@ -29,7 +29,7 @@
 
       <img src="images/logo.svg" alt="" class="mainImg" height="5%" width="5%">
 
-      <main class="mainBox d-flex flex-row justify-content-around align-items-center">
+      <form class="mainBox d-flex flex-row justify-content-around align-items-center">
             <section class="dataInsertionBox d-flex flex-column justify-content-around">
                   <div class="billSection w-100 mb-1">
                         <p class="simpleText mb-1"> Bill</p>
@@ -42,14 +42,14 @@
 
                         <div class="container text-center h-70 d-flex flex-column ">
                               <div class="row d-flex h-70">
-                                    <button class="col-sm m-1  tipButton  p-0 m-0" value=5>5%</button>
-                                    <button class=" col-sm m-1 tipButton p-0 m-0" value=10>10%</button>
-                                    <button class="col-sm m-1  tipButton p-0 m-0" value=15>15%</button>
+                                    <button class="col-sm m-1  tipButton  p-0 m-0" value=5 type="button">5%</button>
+                                    <button class=" col-sm m-1 tipButton p-0 m-0" value=10 type="button">10%</button>
+                                    <button class="col-sm m-1  tipButton p-0 m-0" value=15 type="button">15%</button>
                               </div>
 
                               <div class="row h-70">
-                                    <button class="col-sm m-1  tipButton p-0 m-0" value=25>25%</button>
-                                    <button class="col-sm m-1  tipButton p-0 m-0" value=40>40%</button>
+                                    <button class="col-sm m-1  tipButton p-0 m-0" value=25 type="button">25%</button>
+                                    <button class="col-sm m-1  tipButton p-0 m-0" value=40 type="button">40%</button>
                                     <input type="number" class="col-sm m-1 tipInput p-0 m-0 text-center"
                                           placeholder="Custom"></input>
                               </div>
@@ -59,7 +59,7 @@
 
                   <div class="peopleSection w-100 mb-1">
                         <div class="peopleText d-flex justify-content-between">
-                              <p class="simpleText  mb-1">Number of People</p>
+                              <p class="simpleText mb-1">Number of People</p>
                               <p class="cantBeZeroText mb-1">Can't be zero</p>
                         </div>
                         <input type="number" class="peopleInput text-end w-100" id="totalPeople" placeholder="0">
@@ -84,9 +84,9 @@
                               <span class="moneyPerson" id="totalPerson">$44.27</span>
                         </div>
                   </div>
-                  <button class="resetButton">RESET</button>
+                  <button class="resetButton" type="reset">RESET</button>
             </section>
-      </main>
+      </form>
 
 
       <div class="attribution align-self-end">

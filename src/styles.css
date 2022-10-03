@@ -109,6 +109,8 @@ input::-webkit-inner-spin-button {
       border: none;
       background-color: hsl(189, 41%, 97%);
       font-size: 24px;
+      color: hsl(183, 100%, 15%);
+      font-weight: bold;
 }
 
 .simpleText{
