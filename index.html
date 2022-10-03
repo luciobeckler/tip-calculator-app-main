@@ -42,45 +42,52 @@
 
                         <div class="container text-center h-70 d-flex flex-column ">
                               <div class="row d-flex h-70">
-                                    <button class="col-sm m-1  tipButton">5%</button>
-                                    <button class="col-sm m-1  tipButton">10%</button>
-                                    <button class="col-sm m-1  tipButton">15%</button>
+                                    <button class="col-sm m-1  tipButton  p-0 m-0" value=5>5%</button>
+                                    <button class=" col-sm m-1 tipButton p-0 m-0" value=10>10%</button>
+                                    <button class="col-sm m-1  tipButton p-0 m-0" value=15>15%</button>
                               </div>
 
                               <div class="row h-70">
-                                    <button class="col-sm m-1  tipButton">25%</button>
-                                    <button class="col-sm m-1  tipButton">40%</button>
-                                    <input type="number" class="col-sm m-1 tipInput" placeholder="Custom"></input>
+                                    <button class="col-sm m-1  tipButton p-0 m-0" value=25>25%</button>
+                                    <button class="col-sm m-1  tipButton p-0 m-0" value=40>40%</button>
+                                    <input type="number" class="col-sm m-1 tipInput p-0 m-0 text-center"
+                                          placeholder="Custom"></input>
                               </div>
 
                         </div>
                   </div>
 
                   <div class="peopleSection w-100 mb-1">
-                        <p class="simpleText  mb-1">Number of People</p>
+                        <div class="peopleText d-flex justify-content-between">
+                              <p class="simpleText  mb-1">Number of People</p>
+                              <p class="cantBeZeroText mb-1">Can't be zero</p>
+                        </div>
                         <input type="number" class="peopleInput text-end w-100" id="totalPeople" placeholder="0">
                   </div>
             </section>
 
-            <section class="dataDisplayBox d-flex flex-column">
-                  <div class="tipBox d-flex flex-row h-25">
-                        <div class="tipText">
-                              <p class="primaryText">Tip Amount</p>
-                              <p class="secondaryText">/ person</p>
+            <section class="dataDisplayBox">
+                  <div class="textDisplay">
+                        <div class="tipBox">
+                              <div class="tipText">
+                                    <p class="primaryText">Tip Amount</p>
+                                    <p class="secondaryText">/ person</p>
+                              </div>
+                              <span class="moneyPerson" id="tipPerson">$4.27</span>
                         </div>
-                        <span class="moneyPerson">$4.27</span>
-                  </div>
 
-                  <div class="tipBox d-flex flex-row">
-                        <div class="tipText">
-                              <p class="primaryText">Tip Amount</p>
-                              <p class="secondaryText">/ person</p>
+                        <div class="tipBox ">
+                              <div class="tipText">
+                                    <p class="primaryText">Total</p>
+                                    <p class="secondaryText">/ person</p>
+                              </div>
+                              <span class="moneyPerson" id="totalPerson">$44.27</span>
                         </div>
-                        <span class="moneyPerson">$4.27</span>
                   </div>
-                  <button class="justify-self-end">RESET</button>
+                  <button class="resetButton">RESET</button>
             </section>
       </main>
+
 
       <div class="attribution align-self-end">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

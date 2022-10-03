@@ -5,10 +5,10 @@
 
 ### Neutral
 
-- Very dark cyan: hsl(183, 100%, 15%)
-- Dark grayish cyan: hsl(186, 14%, 43%)
-- Grayish cyan: hsl(184, 14%, 56%)
-- Light grayish cyan: hsl(185, 41%, 84%)
+- Very dark cyan: hsl(183, 100%, 15%)fdsf
+- Dark grayish cyan: hsl(186, 14%, 43%)fdsfsd
+- Grayish cyan: hsl(184, 14%, 56%)gfdgfd
+- Light grayish cyan: hsl(185, 41%, 84%)gfdgfd
 - Very light grayish cyan: hsl(189, 41%, 97%)
 - White: hsl(0, 0%, 100%)
 
@@ -51,11 +51,24 @@ input::-webkit-inner-spin-button {
       border: none;
       border-radius: 7px;
       color: white;
+      font-weight: bold;
+}
+
+.selectedButton{
+      background-color:hsl(172, 67%, 45%);
 }
 
 .tipButton:hover{
-      background-color: hsl(172, 67%, 45%);
+      background-color:hsl(172, 59%, 79%);   /* hgkjhgkjkhgjhg */
       cursor: pointer;
+      color: hsl(183, 100%, 15%);
+}
+
+.tipInput{
+      font-weight: bold;
+      color: hsl(183, 100%, 15%);
+      background-color: hsl(189, 41%, 97%);
+      border: none;
 }
 
 .billInput{
@@ -73,17 +86,15 @@ input::-webkit-inner-spin-button {
 
 
 
-.billInput:focus, .peopleInput:focus{
+.billInput:focus, .peopleInput:focus, .tipInput:focus{
       outline: 0;
-      border: 1px solid hsl(172, 67%, 45%);
+      border: 2px solid hsl(172, 67%, 45%);
       border-radius: 5px;
 }
 
 .h-70{
       height: 70%;
 }
-
-
 
 .w-30{
       width: 30%;
@@ -106,6 +117,14 @@ input::-webkit-inner-spin-button {
       font-weight: bold;
 }
 
+.cantBeZeroText{
+      display: none;
+      font-size: 15px;
+      color: rgb(250, 116, 6);
+      font-weight: bold;
+}
+
+
 
 
 .dataDisplayBox{
@@ -113,4 +132,63 @@ input::-webkit-inner-spin-button {
       background-color: hsl(183, 100%, 15%);
       width: 45%;
       height: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
 }
+
+.textDisplay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      margin: 25px;
+}
+
+
+.tipBox{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+}
+
+
+.tipText{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.primaryText{
+      color: white;
+      margin: 0px;
+}
+
+.secondaryText{
+      color: hsl(186, 14%, 43%);
+      font-size: 12px;
+      margin: 0px;
+}
+
+.moneyPerson{
+      font-size: 35px;
+      color: hsl(172, 67%, 45%);
+      font-weight: bold;
+}
+
+.resetButton{
+      background-color: hsl(172, 67%, 45%);
+      width: 75%;
+      height: 12%;
+      align-self: center;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      color: hsl(183, 100%, 15%);
+}
+
+.resetButton:hover{
+      background-color: hsl(172, 59%, 79%);
+}
+
