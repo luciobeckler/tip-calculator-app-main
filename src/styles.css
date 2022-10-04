@@ -1,38 +1,16 @@
-/* 
-### Primary
-
-- Strong cyan: hsl(172, 67%, 45%)
-
-### Neutral
-
-- Very dark cyan: hsl(183, 100%, 15%)fdsf
-- Dark grayish cyan: hsl(186, 14%, 43%)fdsfsd
-- Grayish cyan: hsl(184, 14%, 56%)gfdgfd
-- Light grayish cyan: hsl(185, 41%, 84%)gfdgfd
-- Very light grayish cyan: hsl(189, 41%, 97%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (form inputs): 24px
-
-### Font
-
-- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
-- Weights: 700 */
 
 body{
       font-family: monospace;
       background-color: hsl(185, 41%, 84%);
 }
+
 .mainBox{
       border-radius: 20px;
       width: 50%;
       height: 50%;
       background-color: hsl(0, 0%, 100%);
 }
+
 .dataInsertionBox{
       width: 45%;
       height: 90%;
@@ -44,8 +22,6 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-/* FAZER AS CLASSES DE SELEÇÃO DOS BOTÕES */
-
 .tipButton{
       background-color: hsl(183, 100%, 15%);
       border: none;
@@ -54,7 +30,6 @@ input::-webkit-inner-spin-button {
       font-weight: bold;
       font-size: 24px;
 }
-/* INPUTCUSTOM */
 
 .customInput:focus{
       outline: 0;
@@ -72,19 +47,14 @@ input::-webkit-inner-spin-button {
       color: hsl(183, 100%, 15%);
 }
 
-
 .customInput:hover{
       cursor: pointer;
       color: hsl(183, 100%, 15%);
 }
 
-/* INPUTCUSTOM */
-
 .selectedButton{
       background-color:hsl(172, 67%, 45%);
 }
-
-
 
 .tipButton:hover{
       background-color:hsl(172, 59%, 79%);   /* hgkjhgkjkhgjhg */
@@ -104,8 +74,6 @@ input::-webkit-inner-spin-button {
       font-weight: bold;
       color: hsl(183, 100%, 15%);
 }
-
-
 
 .billInput:focus, .peopleInput:focus, .tipInput:focus{
       outline: 0;
@@ -165,14 +133,12 @@ input::-webkit-inner-spin-button {
       margin: 25px;
 }
 
-
 .tipBox{
       display: flex;
       flex-direction: row;
       width: 100%;
       justify-content: space-between;
 }
-
 
 .tipText{
       display: flex;
