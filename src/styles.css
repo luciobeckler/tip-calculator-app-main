@@ -52,23 +52,44 @@ input::-webkit-inner-spin-button {
       border-radius: 7px;
       color: white;
       font-weight: bold;
+      font-size: 24px;
 }
+/* INPUTCUSTOM */
+
+.customInput:focus{
+      outline: 0;
+      border: 2px solid hsl(172, 67%, 45%);
+      border-radius: 5px;
+}
+
+.customInput{
+      background-color: hsl(189, 41%, 97%);
+      border: none;
+      border-radius: 7px;
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+      color: hsl(183, 100%, 15%);
+}
+
+
+.customInput:hover{
+      cursor: pointer;
+      color: hsl(183, 100%, 15%);
+}
+
+/* INPUTCUSTOM */
 
 .selectedButton{
       background-color:hsl(172, 67%, 45%);
 }
 
+
+
 .tipButton:hover{
       background-color:hsl(172, 59%, 79%);   /* hgkjhgkjkhgjhg */
       cursor: pointer;
       color: hsl(183, 100%, 15%);
-}
-
-.tipInput{
-      font-weight: bold;
-      color: hsl(183, 100%, 15%);
-      background-color: hsl(189, 41%, 97%);
-      border: none;
 }
 
 .billInput{
@@ -125,9 +146,6 @@ input::-webkit-inner-spin-button {
       color: rgb(250, 116, 6);
       font-weight: bold;
 }
-
-
-
 
 .dataDisplayBox{
       border-radius: 15px;
